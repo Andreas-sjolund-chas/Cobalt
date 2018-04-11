@@ -14,9 +14,5 @@ execute cp $PWD/client/.env.dist $PWD/client/.env
 execute docker-compose build
 
 $PWD/bin/run yarn
-$PWD/bin/run node_modules/.bin/sequelize db:drop
-$PWD/bin/run node_modules/.bin/sequelize db:create
-$PWD/bin/run node_modules/.bin/sequelize db:migrate
-$PWD/bin/run node_modules/.bin/sequelize db:seed:all
 
 execute docker-compose up
