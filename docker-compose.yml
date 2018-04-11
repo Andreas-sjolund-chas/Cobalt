@@ -1,5 +1,7 @@
 version: '3.5'
 services:
+  
+  # Back-end
   express_api:
     container_name: express_api
     build:
@@ -12,12 +14,12 @@ services:
       - ./:/home/node/app
     ports:
       - 7770:7770
-    environment:
-      - POSTGRES_HOST=database
     depends_on:
       - database
     env_file:
       - ./api/.env
+
+  # Front-end
   react_client:
     container_name: react_client
     build:
@@ -31,14 +33,10 @@ services:
       - 7771:7771
     env_file:
       - ./client/.env
+
+  # DB
   database:
-    container_name: postgres_db
-    image: postgres:9.6
-    volumes:
-      - database:/var/lib/postgresql/data
-    ports:
-      - 7772:5432
+    container_name: mongo_db
+    image: mongo
     env_file:
       - ./api/.env
-volumes:
-  database:
