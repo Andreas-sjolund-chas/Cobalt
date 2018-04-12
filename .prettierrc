@@ -40,7 +40,7 @@
           "type": "boolean"
         },
         "singleQuote": {
-          "default": false,
+          "default": true,
           "description": "Use single quotes instead of double quotes.",
           "type": "boolean"
         },
