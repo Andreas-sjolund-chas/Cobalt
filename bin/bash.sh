@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/bash -li
+
+shopt -s expand_aliases
+source ~/.bash_aliases
 
 function red {
   printf "\033[0;31m$1\033[0m\n"
