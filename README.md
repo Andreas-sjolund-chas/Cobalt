@@ -13,7 +13,12 @@ This is the project boilerplate which will get you started. For any questions re
   * [Bash Commands](#bash-commands)
 * [Storybook](#storybook)
 * [Gitflow](#gitflow)
-  <!--te-->
+  * [Usage](#usage---gitflow)
+  * [Features](#features)
+  * [Make a release](#make-a-release)
+  * [Hotfixes](#hotfixes)
+  * [Commands](#commands)
+    <!--te-->
 
 ## Directory Layout
 
@@ -106,7 +111,7 @@ or
 > You need wget and util-linux to install git-flow.
 > Docs : <a href="https://github.com/petervanderdoes/gitflow-avh/wiki">click here</a>
 
-## Usage
+## Usage - Gitflow
 
 ### Initialize
 
