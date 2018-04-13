@@ -85,6 +85,10 @@ To run the commands above for separate API Docker instance, simply change the pr
 
 # Git convention
 
+### Branching
+
+From develop: `git checkout -b <github-issue-id>-feature/<your-feature-name>`
+
 For git to work properly with waffle.io features should be name as shown below:
 
 `<github-issue-id>-feature/<your-feature-name>`
@@ -92,6 +96,12 @@ For git to work properly with waffle.io features should be name as shown below:
 <img src="http://piclair.com/data/1yogm.jpg" />
 
 > Example: `12-feature/button-defualt`
+
+
+
+
+
+
 
 <!-- # Gitflow
 
