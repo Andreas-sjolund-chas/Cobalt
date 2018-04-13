@@ -83,6 +83,16 @@ To run the commands above for separate API Docker instance, simply change the pr
 1.  `cd client`
 2.  `npm/yarn run storybook` - Runs at http://localhost:9009
 
+# Git convention
+
+For git to work properly with waffle.io features should be name as shown below:
+
+`<github-issue-id>-feature/<your-feature-name>`
+
+<img src="http://piclair.com/data/1yogm.jpg" />
+
+> Example: `12-feature/button-defualt`
+
 <!-- # Gitflow
 
 ## Installation
