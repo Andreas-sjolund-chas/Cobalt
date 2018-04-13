@@ -1,0 +1,12 @@
+version: "2"
+
+options:
+  verbose: true
+  max-attempt: 30
+syncs:
+  #IMPORTANT: ensure this name is unique and does not match your other application container name
+  app-sync: # tip: add -sync and you keep consistent names as a convention
+    src: '.'
+    sync_args: ['-perms=0'] #required for two way sync ie generators, etc
+    sync_strategy: 'unison'
+
