@@ -12,13 +12,8 @@ This is the project boilerplate which will get you started. For any questions re
 * [Usage](#usage)
   * [Bash Commands](#bash-commands)
 * [Storybook](#storybook)
-* [Gitflow](#gitflow)
-  * [Usage](#usage---gitflow)
-  * [Features](#features)
-  * [Make a release](#make-a-release)
-  * [Hotfixes](#hotfixes)
-  * [Commands](#commands)
-    <!--te-->
+
+<!--te-->
 
 ## Directory Layout
 
@@ -88,7 +83,7 @@ To run the commands above for separate API Docker instance, simply change the pr
 1.  `cd client`
 2.  `npm/yarn run storybook` - Runs at http://localhost:9009
 
-# Gitflow
+<!-- # Gitflow
 
 ## Installation
 
@@ -204,4 +199,4 @@ By finishing a hotfix it gets merged back into develop and master. Additionally 
 
 <img src="https://danielkummer.github.io/git-flow-cheatsheet/img/git-flow-commands.png" />
 
-For more details about gitflow <a href="https://github.com/petervanderdoes/gitflow-avh/wiki/Installation">click here</a>
+For more details about gitflow <a href="https://github.com/petervanderdoes/gitflow-avh/wiki/Installation">click here</a> -->
