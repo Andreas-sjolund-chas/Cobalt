@@ -12,6 +12,7 @@ This is the project boilerplate which will get you started. For any questions re
 * [Usage](#usage)
   * [Bash Commands](#bash-commands)
 * [Storybook](#storybook)
+* [Git](#git)
 
 <!--te-->
 
@@ -83,7 +84,7 @@ To run the commands above for separate API Docker instance, simply change the pr
 1.  `cd client`
 2.  `npm/yarn run storybook` - Runs at http://localhost:9009
 
-# Git convention
+# Git
 
 ### Branching
 
@@ -93,11 +94,20 @@ For git to work properly with waffle.io features should be name as shown below:
 
 `<github-issue-id>-feature/<your-feature-name>`
 
-<img src="http://piclair.com/data/1yogm.jpg" />
-
 > Example: `12-feature/button-defualt`
 
+### Merging
 
+1. `cd develop`
+2. `git pull`
+3. `cd <feature-branch>`
+4. `git rebase develop`
+5. Resolve conflicts
+6. `git add` Add your resolved conflicts
+7. `git rebase --continue`
+8. Repeat step 6 and 7 until message: 'No rebase in progress?' appears
+9. `git push -f`
+10. Add pullrequest on github
 
 
 
