@@ -98,9 +98,9 @@ For git to work properly with waffle.io features should be name as shown below:
 
 ### Merging
 
-1. `cd develop`
+1. `git checkout develop`
 2. `git pull`
-3. `cd <feature-branch>`
+3. `git checkout <feature-branch>`
 4. `git rebase develop`
 5. Resolve conflicts
 6. `git add` Add your resolved conflicts
